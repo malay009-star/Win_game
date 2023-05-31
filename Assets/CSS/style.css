@@ -95,10 +95,14 @@ body {
     width: 150px;
     height: 120px;
   }
+  #btn {
+    left: 45%;
+  }
 }
 
 @media screen and (max-width: 417px) {
   .container {
+    /* background-color: red; */
     top: 5%;
     left: 7%;
   }
@@ -108,5 +112,10 @@ body {
   }
   .box_section {
     left: 0%;
+  }
+  #btn {
+    left: 57%;
+    padding: 1px 30px;
+    /* text-align: left; */
   }
 }
